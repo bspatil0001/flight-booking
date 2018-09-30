@@ -1,0 +1,102 @@
+.home-wrapper {
+  .page-header {
+    font-size: 30px;
+    border-bottom: 2px solid;
+    color: #fff;
+  }
+  .form-container {
+
+    margin-bottom: 30px;
+  }
+
+  .flight-container {
+    border-left: 1px solid #fff;
+    min-height: 500px;
+    padding: 15px;
+    .flight {
+      margin-bottom: 15px;
+      border-bottom: 1px solid #000;
+      padding: 15px;
+      background-color: #fff;
+    }
+    .flight-information {
+      .flight-info{
+        margin: 15px 0;
+      }
+
+      .flight-cost {
+        font-size: 32px;
+      }
+      .flight-id {
+        font-size: 14px;
+      }
+      .flight-places {
+        font-size: 22px;
+      }
+      .flight-timings {
+        font-size: 18px;
+      }
+
+    }
+
+  }
+  .input-element {
+    margin-bottom: 28px;
+  }
+  .vdp-datepicker {
+    input {
+      width: 100%;
+      border: none;
+    }
+  }
+
+  .box {
+    border: 1px solid;
+    padding: 15px;
+    background-color: #fff;
+  }
+
+  .error {
+    position: absolute;
+    margin-top: 3px;
+    color: #f00;
+  }
+
+  .search-results{
+    color: #fff;
+  }
+  .search-filter {
+    font-size: 26px;
+
+
+    span {
+
+      &:after {
+        margin-left: 10px;
+        content: '-'
+      }
+      &:last-child {
+        &:after {
+          margin-left: 10px;
+          content: '-';
+          display: none;
+        }
+      }
+    }
+  }
+  .slider-container {
+    h4 {
+      margin-bottom: 30px;
+    }
+  }
+
+  h1 {
+    color: #fff;
+  }
+
+  .search-results {
+    margin-bottom: 15px;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+  }
+}
